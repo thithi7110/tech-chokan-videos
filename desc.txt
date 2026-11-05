@@ -1,0 +1,51 @@
+エンジニア向けのテックニュースを毎朝5分ほどでまとめています。
+今日は Amazon EKS のネットワークポリシー脆弱性の修正確認と、e-Tax の利用再開から。
+
+00:00 オープニング
+00:12 ⚠️ EKS：NetworkPolicyをすり抜ける脆弱性
+00:40 e-Tax、「不審な通信」で停止→利用再開
+01:05 Vercel、盗まれたセッションCookie対策を展開
+01:26 「人が打ったときだけ動く」スキルをAIが読んだ
+01:50 ホワイトハウスの回線に住宅用プロキシ（報道ベース）
+02:13 MUJI Card 番号全桁 約109万件が漏えいの恐れ
+02:40 VS Code拡張の公開をPATなしで自動化
+03:03 Gemini Omni 1.2 Flash、15秒動画で30％値下げ
+03:24 OpenAI、Pierreの買収を発表
+03:43 Docker、AIエージェントの隔離と統制を提言
+04:07 Amazon ECS Gateway が登場
+04:29 Google Cloud API Gateway がストリーミング対応
+04:51 クラウド市場が過去最高の伸び、AWSは26％に
+05:14 Octoverse 2026：TypeScriptが2年連続1位
+05:34 CodeQL 2.27.4 で誤検知を削減
+05:51 ⚠️ Firecracker：ゲストからプロセスメモリへ
+06:13 ⚠️ 2年前のApple製品の欠陥、悪用中とCISA
+06:32 ⚠️ Android端末130万台超に工場出荷時バックドア
+06:55 AIで速くなるほど、チームの土台が効く
+07:21 今日のまとめ
+
+■ 出典
+AWS Bulletin 2026-170（EKS network policy）：https://aws.amazon.com/security/security-bulletins/2026-170-aws/
+e-Tax 緊急メンテナンスのお知らせ：https://www.e-tax.nta.go.jp/topics/2026/topics_20261104_mentenansu.htm
+e-Tax（ITmedia）：https://www.itmedia.co.jp/news/article/2611/05/2000002887/
+Vercel DBSC（BleepingComputer）：https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/
+スキル検証（Qiita）：https://qiita.com/suwa_nobu/items/f09fceeb70b7a68aa4f7
+Krebs on Security：https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/
+MUJI Card（ITmedia）：https://www.itmedia.co.jp/news/article/2611/04/2000002885/
+VS Code Marketplace Trusted Publishing（Zenn）：https://zenn.dev/kyto64/articles/vscode-marketplace-trusted-publishing
+Gemini Omni 1.2 Flash：https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/
+OpenAI to acquire Pierre：https://openai.com/index/openai-to-acquire-pierre
+Docker AI agent security（InfoQ）：https://www.infoq.com/news/2026/11/docker-ai-agent-security/
+Amazon ECS Gateway（InfoQ）：https://www.infoq.com/news/2026/11/introducing-amazon-ecs-gateway/
+Google Cloud API Gateway streaming（InfoQ）：https://www.infoq.com/news/2026/11/gcp-api-gateway-streaming/
+クラウドシェア Q3（Publickey）：https://www.publickey1.jp/blog/26/aws26google_cloud1620263synergy_research.html
+Octoverse 2026（Publickey）：https://www.publickey1.jp/blog/26/github2typescriptrustosscc_switchomarchygithub_octoverse_2026.html
+CodeQL 2.27.4：https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata
+AWS Bulletin 2026-169（Firecracker）：https://aws.amazon.com/security/security-bulletins/2026-169-aws/
+Apple flaw / CISA KEV（The Hacker News）：https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html
+Android バックドア（ITmedia）：https://www.itmedia.co.jp/news/article/2611/04/2000002884/
+成果を出すチームの5つの特徴（Qiita）：https://qiita.com/shinkai_/items/003029234e387db00e45
+
+※ 内容は各記事の要約です。最新情報・正確な対応手順は必ず各公式情報をご確認ください。
+音声：VOICEVOX:四国めたん
+
+#テックニュース #エンジニア #AWS #セキュリティ #TypeScript #生成AI

@@ -1,51 +1,49 @@
 エンジニア向けのテックニュースを毎朝5分ほどでまとめています。
-今日は Amazon EKS のネットワークポリシー脆弱性の修正確認と、e-Tax の利用再開から。
+今日は Alpine 環境の OpenSSH 緊急修正と、ドコモの不正アクセスによる情報流出から。
 
 00:00 オープニング
-00:12 ⚠️ EKS：NetworkPolicyをすり抜ける脆弱性
-00:40 e-Tax、「不審な通信」で停止→利用再開
-01:05 Vercel、盗まれたセッションCookie対策を展開
-01:26 「人が打ったときだけ動く」スキルをAIが読んだ
-01:50 ホワイトハウスの回線に住宅用プロキシ（報道ベース）
-02:13 MUJI Card 番号全桁 約109万件が漏えいの恐れ
-02:40 VS Code拡張の公開をPATなしで自動化
-03:03 Gemini Omni 1.2 Flash、15秒動画で30％値下げ
-03:24 OpenAI、Pierreの買収を発表
-03:43 Docker、AIエージェントの隔離と統制を提言
-04:07 Amazon ECS Gateway が登場
-04:29 Google Cloud API Gateway がストリーミング対応
-04:51 クラウド市場が過去最高の伸び、AWSは26％に
-05:14 Octoverse 2026：TypeScriptが2年連続1位
-05:34 CodeQL 2.27.4 で誤検知を削減
-05:51 ⚠️ Firecracker：ゲストからプロセスメモリへ
-06:13 ⚠️ 2年前のApple製品の欠陥、悪用中とCISA
-06:32 ⚠️ Android端末130万台超に工場出荷時バックドア
-06:55 AIで速くなるほど、チームの土台が効く
-07:21 今日のまとめ
+00:13 ⚠️ OpenSSH 10.6p2、Alpine向けに緊急修正
+00:42 ドコモ、不正アクセスで最大29.5万回線の情報流出
+01:13 Claude Codeが外部サイトにメールアドレスを送る問題
+01:41 明治の開始日が変わり、単体テストが失敗
+02:09 Herdrで複数のAIエージェントを見守る
+02:35 AWS CLIと同じ出力で最大550倍速い「awsr」
+03:02 JNSAのサービスに不正アクセス、最大1.5万件
+03:26 OpenAI、セキュリティ特化の「GPT-6 Cyber」
+03:54 48ドルの返金が4800ドルに、エージェント運用の勘所
+04:19 Claudeに家計管理「Personal Finance」β
+04:43 Security HubでSBOMインベントリが利用可能に
+05:08 TypeScript 7.1 Beta、コンパイラAPIが復活
+05:32 GitHub、PRの新しいOverviewページをプレビュー
+05:54 ⚠️ PHP2Shell、約2900万台が未修正のまま
+06:20 Barracudaメールゲートウェイ、未認証でroot
+06:42 総務省、事業者に不正アクセス対策を注意喚起
+07:06 Googleの「SREの教科書」、10年ぶりに全面改訂
+07:28 今日のまとめ
 
 ■ 出典
-AWS Bulletin 2026-170（EKS network policy）：https://aws.amazon.com/security/security-bulletins/2026-170-aws/
-e-Tax 緊急メンテナンスのお知らせ：https://www.e-tax.nta.go.jp/topics/2026/topics_20261104_mentenansu.htm
-e-Tax（ITmedia）：https://www.itmedia.co.jp/news/article/2611/05/2000002887/
-Vercel DBSC（BleepingComputer）：https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/
-スキル検証（Qiita）：https://qiita.com/suwa_nobu/items/f09fceeb70b7a68aa4f7
-Krebs on Security：https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/
-MUJI Card（ITmedia）：https://www.itmedia.co.jp/news/article/2611/04/2000002885/
-VS Code Marketplace Trusted Publishing（Zenn）：https://zenn.dev/kyto64/articles/vscode-marketplace-trusted-publishing
-Gemini Omni 1.2 Flash：https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/
-OpenAI to acquire Pierre：https://openai.com/index/openai-to-acquire-pierre
-Docker AI agent security（InfoQ）：https://www.infoq.com/news/2026/11/docker-ai-agent-security/
-Amazon ECS Gateway（InfoQ）：https://www.infoq.com/news/2026/11/introducing-amazon-ecs-gateway/
-Google Cloud API Gateway streaming（InfoQ）：https://www.infoq.com/news/2026/11/gcp-api-gateway-streaming/
-クラウドシェア Q3（Publickey）：https://www.publickey1.jp/blog/26/aws26google_cloud1620263synergy_research.html
-Octoverse 2026（Publickey）：https://www.publickey1.jp/blog/26/github2typescriptrustosscc_switchomarchygithub_octoverse_2026.html
-CodeQL 2.27.4：https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata
-AWS Bulletin 2026-169（Firecracker）：https://aws.amazon.com/security/security-bulletins/2026-169-aws/
-Apple flaw / CISA KEV（The Hacker News）：https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html
-Android バックドア（ITmedia）：https://www.itmedia.co.jp/news/article/2611/04/2000002884/
-成果を出すチームの5つの特徴（Qiita）：https://qiita.com/shinkai_/items/003029234e387db00e45
+OpenSSH 10.6p2 緊急修正（The Hacker News）：https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html
+sshhole（解説）：https://sshhole.com/
+ドコモ不正アクセス（Impress Watch）：https://www.watch.impress.co.jp/docs/news/2154508.html
+Claude Code issue #107757：https://github.com/anthropics/claude-code/issues/107757
+Claude Code メールアドレス送信（GIGAZINE）：https://gigazine.net/news/20261106-claude-code-mail-address/
+明治の開始日変更（Zenn）：https://zenn.dev/xin9le/articles/9a1cf8e10494d6
+Herdr（はてなブログ）：https://syu-m-5151.hatenablog.com/entry/2026/11/06/132239
+awsr（conao3 Notes）：https://s.conao3.com/blog/2026/f681b9
+JNSA 不正アクセス（ITmedia）：https://www.itmedia.co.jp/news/article/2611/06/2000002978/
+GPT-6 Cyber（ITmedia）：https://www.itmedia.co.jp/news/article/2611/06/2000002931/
+AIエージェント運用の勘所（＠IT）：https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news012.html
+Claude Personal Finance（ITmedia）：https://www.itmedia.co.jp/news/article/2611/06/2000002935/
+Security Hub SBOM inventory（AWS）：https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/
+TypeScript 7.1 Beta（InfoQ）：https://www.infoq.com/news/2026/11/typescript-7-1-beta/
+GitHub PR Overview page：https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview
+PHP2Shell（＠IT）：https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news031.html
+Barracuda ESG（The Hacker News）：https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html
+総務省 注意喚起：https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000683.html
+SREブック改訂（＠IT）：https://atmarkit.itmedia.co.jp/ait/articles/2611/06/news024.html
+SREブック第2版（Google Cloud ブログ）：https://cloud.google.com/blog/ja/products/devops-sre/sre-book-second-edition
 
 ※ 内容は各記事の要約です。最新情報・正確な対応手順は必ず各公式情報をご確認ください。
 音声：VOICEVOX:四国めたん
 
-#テックニュース #エンジニア #AWS #セキュリティ #TypeScript #生成AI
+#テックニュース #エンジニア #セキュリティ #AWS #TypeScript #生成AI

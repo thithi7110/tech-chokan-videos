@@ -1,0 +1,52 @@
+エンジニア向けのテックニュースを毎朝まとめています。
+今日は長引く Microsoft 365 の大規模障害と、マネックス証券の情報漏えいのおそれから。
+
+00:00 オープニング
+00:13 ⚠️ Microsoft 365で大規模障害、復旧長引く
+00:46 ⚠️ マネックス証券、メアド最大113万件漏えいのおそれ
+01:13 Claude、認証まわりで障害　約2時間で解決
+01:35 M365障害、政府にも影響　AWSは関連を否定
+02:01 お名前.com 不正アクセス、補償申請は約30億円
+02:24 物理パスキー「YubiKey」、日本で本格展開
+02:46 M365障害で「連絡手段の二重化」をめぐる議論
+03:09 Claude Codeのおすすめ環境を全体図で解説
+03:32 ぼくのClaude Codeの使い方
+03:53 空気清浄機を解析して、クラウド依存から脱却
+04:16 AIで書いた音楽プレイヤーを、自分で書き直した話
+04:37 Brave Search API、AIエージェントの都度払いに対応
+05:00 Google Antigravity、リモートエージェント搭載
+05:20 Google社内専用のコーディングAI「GfG」の論文
+05:43 Route 53、レコードの変更・削除を保護できるように
+06:01 Rust 1.100 リリース　never型が安定化
+06:24 ⚠️ セキュリティ企業、GitHub経由で情報漏えいか
+06:46 Qoo10に不正アクセス、住所の座標なども対象のおそれ
+07:11 甲賀市の防災放送システムにランサムウェア
+07:33 今日のまとめ
+
+■ 出典
+2026年11月に発生したMicrosoft 365の接続障害についてまとめてみた（piyolog）：https://piyolog.hatenadiary.jp/entry/2026/11/13/114230
+Microsoft 365で大規模障害（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/13/2000003161/
+Microsoft service health status（Microsoft）：https://status.cloud.microsoft/
+マネックス証券、不正アクセスでメールアドレス最大113万件漏洩のおそれ（ケータイWatch）：https://k-tai.watch.impress.co.jp/docs/news/2156449.html
+Elevated errors on claude.ai, Claude Code, and platform.claude.com（Claude Status）：https://status.claude.com/incidents/nn11wk485zfn
+MS障害、政府共通システムにも影響（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/13/2000003183/
+AWS、Microsoft 365障害の影響を否定（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/13/2000003185/
+「お名前.com」不正アクセス、補償申請約30億円に（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/13/2000003197/
+物理パスキー「YubiKey」日本で本格展開（Impress Watch）：https://www.watch.impress.co.jp/docs/news/2156008.html
+Claude Codeのおすすめ環境を全体図で解説（ktlog.net）：https://ktlog.net/posts/claude-code-ai-ecosystem
+ぼくのClaude Codeの使い方（Speaker Deck）：https://speakerdeck.com/falken/boku-no-claude-code-no-tsukaikata
+Reverse engineering my Coway air purifier to ditch the cloud（scottjg.com）：https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/
+How Not to Build a Music Player（alichraghi.github.io）：https://alichraghi.github.io/blog/how-not-to-build-a-music-player
+Brave Search API now accepts agentic payments via x402（brave.com）：https://brave.com/blog/search-api-agentic-payments/
+Google Antigravity、リモートエージェント機能を搭載（Publickey）：https://www.publickey1.jp/blog/26/google_antigravityaiai.html
+Googleの社内専用コーディングAI「GfG」、その全容（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/13/2000003110/
+Route 53 でレコードセットの変更/削除を保護できるようになりました（DevelopersIO）：https://dev.classmethod.jp/articles/route53-recordset-protections/
+Announcing Rust 1.100.0（Rust Blog）：https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/
+サイバーセキュリティクラウド、GitHubから顧客情報流出か（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/13/2000003163/
+「Qoo10」不正アクセス、個人情報漏えい（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/13/2000003186/
+緊急情報の音声放送システムにランサムウェア攻撃（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/13/2000003167/
+
+※ 内容は各記事の要約です。最新情報・正確な対応手順は必ず各公式情報をご確認ください。
+音声：VOICEVOX:四国めたん
+
+#テックニュース #エンジニア #Microsoft365 #セキュリティ #ClaudeCode #Rust

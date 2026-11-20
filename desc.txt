@@ -1,0 +1,56 @@
+エンジニア向けのテックニュースを毎朝まとめています。
+今日は KARTE 不正アクセスの調査結果、デジタル庁のファイル共有サービスの漏えい、正規通販サイトの決済画面改ざんから。
+
+00:00 オープニング
+00:16 ⚠️ KARTE不正アクセス、影響は延べ2200社
+00:52 デジタル庁、政府向けファイル共有で漏えいか
+01:20 ⚠️ 正規サイトの決済画面が改ざん、カード情報8220件
+01:51 ⚠️ POS端末700台超に侵入、修正済みの脆弱性を悪用
+02:19 OpenSSL、Base64関数の修正が公開の場で進行
+02:43 Microsoft To Do、2027年6月で廃止
+03:06 Android開発者認証、2027年1月から世界展開
+03:32 Mac版Geminiにcomputer use、アプリを代わりに操作
+03:57 STSに GetScopedCredentials、権限を絞った認証情報
+04:19 Cognitoのシークレットを Secrets Manager で管理
+04:37 まつもとゆきひろ氏「OSS文化は10年もたないかも」
+05:05 Claude CodeとCodexで作る「自律改善ハーネス」
+05:33 コードを書かなくなると、レビューも下手になる
+05:57 LLMが自分の重みを書き換えて性能向上
+06:23 JJUG CCC 2026 Fall、タイムテーブル公開
+06:45 DevFest Tokyo 2026、11/29に東京駅前で
+07:05 今日のまとめ
+
+■ 出典
+「KARTE」への不正アクセスに関する当社調査結果と、サービス再開の見通し等のお知らせ（プレイド）：https://plaid.co.jp/news/20261120/
+三井住友銀で情報漏えい、最大1400万件（共同通信／47NEWS）：https://www.47news.jp/15262461.html
+デジ庁、政府機関向けファイル共有サービスで漏えいか（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/20/2000003381/
+ハンコヤドットコム、カード番号やセキュリティコード8220件漏えいか（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/20/2000003367/
+POS端末700台超がマルウェア感染、カード情報100万件超が流出（TECH+）：https://news.mynavi.jp/techplus/article/20261120-5367457/
+Buffer overflow in EVP_EncodeBlock()（GitHub openssl/openssl #33652）：https://github.com/openssl/openssl/pull/33652
+「Microsoft To Do」アプリが2027年6月で廃止（窓の杜）：https://forest.watch.impress.co.jp/docs/news/2158040.html
+Android開発者認証が2027年1月から世界展開開始（GIGAZINE）：https://gigazine.net/news/20261120-android-developer-verification-expanding/
+Mac版「Gemini」に「computer use」機能追加（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/20/2000003356/
+AWS STS の GetScopedCredentials で一時認証情報の権限とセッション期間を絞ってみた（DevelopersIO）：https://dev.classmethod.jp/articles/aws-sts-getscopedcredentials-scope-down/
+Amazon Cognito のアプリクライアントシークレットを AWS Secrets Manager で管理（DevelopersIO）：https://dev.classmethod.jp/articles/cognito-client-secret-secrets-manager/
+「あと10年もたないかもしれない」まつもとゆきひろが危惧するOSS文化の消滅（エンジニアtype）：https://type.jp/et/feature/32219/
+自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス（Zenn）：https://zenn.dev/nttdata_tech/articles/9562962cc181a1
+If you stop writing code, you also get worse at reviewing it（cekrem.github.io）：https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/
+Language Models Can Rewrite Their Own Weights（arXiv）：https://arxiv.org/abs/2611.21885
+JJUG CCC 2026 Fall（公式）：https://jjug.doorkeeper.jp/events/199505
+DevFest Tokyo 2026（公式）：https://df26.gdgs.jp/tokyo/
+
+■ 今後30日のカンファレンス・イベント
+11/25(水) Developers X Summit 2026（ベルサール神田）／申込受付は終了：https://event.shoeisha.jp/devsumi/20261125
+11/26(木)〜11/27(金) アーキテクチャConference 2026（ベルサール羽田空港）：https://architecture-con.findy-tools.io/2026
+11/28(土) JJUG CCC 2026 Fall（ベルサール新宿グランド）／タイムテーブル公開：https://jjug.doorkeeper.jp/events/199505
+11/29(日) DevFest Tokyo 2026（JPタワー ホール＆カンファレンス（KITTE 4F））／参加無料：https://df26.gdgs.jp/tokyo/
+11/30(月)〜12/4(金) AWS re:Invent 2026（米ラスベガス＋ライブ配信）：https://reinvent.awsevents.com/
+12/3(木)〜12/4(金) RubyWorld Conference 2026（くにびきメッセ（松江））：https://2026.rubyworld-conf.org/
+12/7(月)〜12/9(水) Open Source Summit Japan 2026（虎ノ門ヒルズフォーラム）／通常価格 11/23まで：https://events.linuxfoundation.org/open-source-summit-japan/
+12/10(木) PyTorch Day Japan 2026（東京）：https://events.linuxfoundation.org/pytorch-day-japan/
+12/14(月)〜12/15(火) AI Engineering Summit Tokyo 2026（浜松町コンベンションホール＋オンライン）：https://ai-engineering-summit-tokyo.findy-tools.io/2026-winter/en
+
+※ 内容は各記事の要約です。最新情報・正確な対応手順は必ず各公式情報をご確認ください。
+音声：VOICEVOX:四国めたん
+
+#テック朝刊 #エンジニア #セキュリティ #情報漏えい #AWS #生成AI

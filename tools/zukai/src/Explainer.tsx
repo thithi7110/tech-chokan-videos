@@ -82,7 +82,12 @@ const Mike: React.FC<{mood: string; open: boolean; frame: number; moods: string[
   const bob = Math.sin(frame / 9) * 5;
   const has = (n: string) => moods.includes(n);
   const name = has(`${mood}_${open ? 'open' : 'close'}`) ? `${mood}_${open ? 'open' : 'close'}` : has(`${mood}_open`) ? `${mood}_open` : has(mood) ? mood : moods[0];
-  return <Img src={staticFile(`mike/${name}.png`)} style={{position: 'absolute', right: big ? 300 : 30, bottom: (big ? 260 : 60) + bob, width: big ? 480 : 340}} />;
+  // 画像の縦横比が違っても右下の枠（engine.ts の MIKE）に収まるよう、高さと幅の上限で合わせる
+  return (
+    <div style={{position: 'absolute', right: big ? 280 : 30, bottom: (big ? 240 : 60) + bob, width: big ? 520 : 360, height: big ? 600 : 400,
+      display: 'flex', alignItems: 'flex-end', justifyContent: 'flex-end'}}>
+      <Img src={staticFile(`mike/${name}.png`)} style={{maxWidth: '100%', maxHeight: '100%', objectFit: 'contain'}} />
+    </div>);
 };
 
 const Headline: React.FC<{text: string; hook: boolean; cta: boolean; opacity: number; dy: number}> = ({text, hook, cta, opacity, dy}) => (

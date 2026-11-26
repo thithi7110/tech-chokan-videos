@@ -14,7 +14,7 @@ export const C: Record<string, string> = {
 export const W = 1080, H = 1920;
 // 図を置いてよい範囲（見出しの下〜ミケの上）。ミケは右下の MIKE 範囲を占める。
 export const SAFE = {x0: 40, x1: 1040, y0: 470, y1: 1860};
-export const MIKE = {x0: 690, y0: 1430, x1: 1060, y1: 1880};
+export const MIKE = {x0: 690, y0: 1440, x1: 1060, y1: 1880};  // ミケの枠：右30・下60、幅360・高さ400
 
 export const DEFAULTS: Record<string, Props> = {
   common: {x: 540, y: 960, opacity: 0, scale: 0.92, color: 'gray', dim: 0},

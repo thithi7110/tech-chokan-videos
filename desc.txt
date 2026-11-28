@@ -1,0 +1,53 @@
+エンジニア向けのテックニュースを毎朝まとめています。
+今日は、ロリポップ！の51万件漏えい（Basic認証のID・パスワードを含む）、Linuxカーネルの「TCPanic」、KARTE漏えいの拡大から。
+
+00:00 オープニング
+00:14 ⚠️ ロリポップ！、51万件漏えい
+00:43 ⚠️ Linux「TCPanic」TCP通信だけでホスト停止
+01:09 KARTE漏えい拡大、Peachは最大944万件
+01:38 三井ショッピングパーク、約312万人の情報漏えい
+02:03 文科省の入札システムに不正アクセス
+02:26 フィッシング訓練、クリック率は下がらず
+02:55 Androidの事業者アプリ、住所と電話番号が公開に
+03:21 Character.AI、会話履歴の売却を計画
+03:45 MCPに「Skills over MCP」、使い方もサーバーから
+04:13 NVIDIA、画像生成AIをオープンウェイトで公開
+04:33 Devin Botに毎朝の性能改善を任せた
+05:01 2026年に出てよかった技術書
+05:20 教材「はじめての Lean」
+05:41 AIでセルフホストがまた楽しくなった
+06:00 今日のまとめ
+
+■ 出典
+「ロリポップ！レンタルサーバー」および関連サービスに対する不正アクセスによるお客様情報の漏えいについて（ロリポップ！）：https://lolipop.jp/info/news/8279/
+ロリポップ！で顧客情報51万件が漏えいの可能性（INTERNET Watch）：https://internet.watch.impress.co.jp/docs/news/2160136.html
+Linuxカーネルのバグ「TCPanic」を発見（Ikotas Labs）：https://ikotaslabs.com/news/2026-11-27
+Peach、「KARTE」から最大約944万件の顧客情報漏えい（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/27/2000003509/
+止まらないKARTE漏えい（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/27/2000003517/
+三井ショッピングパーク、約312万会員の個人情報漏えい（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/27/2000003510/
+文部科学省の入札システムに不正アクセス（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/27/2000003508/
+「フィッシング対策訓練」って実効性あるの？（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/27/2000003502/
+Androidアプリ開発者はまもなく自身の住所を公開しなければならなくなる（GIGAZINE）：https://gigazine.net/news/20261127-android-app-developers-have-to-share-address-publicly/
+Character.AIが会話履歴を競売にかけようとしている（GIGAZINE）：https://gigazine.net/news/20261127-character-ai-asset-sale/
+MCPに新機能「Skills over MCP」登場（ITmedia NEWS）：https://www.itmedia.co.jp/news/article/2611/27/2000003513/
+NVIDIAが画像生成AI「Nemotron-Labs-Image-30B-A3B」を公開（GIGAZINE）：https://gigazine.net/news/20261127-nemotron-labs-image-30b-a3b/
+Devin Bot に毎朝のパフォーマンス改善を任せてみた（kickflow Tech Blog）：https://tech.kickflow.co.jp/entry/2026/11/27/154920
+2026年に刊行されてよかったなと思うコンピューター技術書（golden-luckyの日記）：https://golden-lucky.hatenablog.com/entry/2026/11/27/111643
+はじめての Lean：https://unaoya.github.io/lean-intro/
+AI made self-hosting fun again（janlukas.blog）：https://janlukas.blog/posts/ai-self-hosting
+
+■ 今後30日のカンファレンス・イベント
+11/28(土) JJUG CCC 2026 Fall（ベルサール新宿グランド）／本日開催：https://jjug.doorkeeper.jp/events/199505
+11/29(日) DevFest Tokyo 2026（JPタワー ホール＆カンファレンス（KITTE 4F））／明日開催：https://df26.gdgs.jp/tokyo/
+11/30(月)〜12/4(金) AWS re:Invent 2026（米ラスベガス＋無料ライブ配信）：https://reinvent.awsevents.com/
+12/3(木)〜12/4(金) RubyWorld Conference 2026（くにびきメッセ（松江））：https://2026.rubyworld-conf.org/
+12/7(月)〜12/9(水) Open Source Summit Japan 2026（虎ノ門ヒルズフォーラム）：https://events.linuxfoundation.org/open-source-summit-japan/
+12/10(木) PyTorch Day Japan 2026（東京）：https://events.linuxfoundation.org/pytorch-day-japan/
+12/12(土) Developers Boost 2026（秋葉原UDX）：https://event.shoeisha.jp/devboost/20261212
+12/14(月)〜12/15(火) AI Engineering Summit Tokyo 2026（浜松町コンベンションホール＋オンライン）：https://ai-engineering-summit-tokyo.findy-tools.io/2026-winter/en
+12/19(土) JAWS-UG AI Builders Day 2026（AWS Japan 麻布台オフィス）：https://jawsug.connpass.com/event/401200/
+
+※ 内容は各記事の要約です。最新情報・正確な対応手順は必ず各公式情報をご確認ください。
+音声：VOICEVOX:四国めたん
+
+#テックニュース #エンジニア #セキュリティ #情報漏えい #Linux #生成AI

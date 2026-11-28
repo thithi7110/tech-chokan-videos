@@ -1,0 +1,26 @@
+公開前サイトでよく使う「Basic認証」。httpのままだとパスワードが途中で読める理由を、1つの場面で仕組みから解説します。
+
+▶ この話題が出てきたテック朝刊（ニュースまとめ）
+https://youtu.be/TUIcUR6Fsts
+
+00:00 はじめに
+00:15 こんな場面：公開前のサイトにカギをかけ、URLを渡した
+00:39 ひとことで：入口で毎回、合言葉のメモを見せて通る
+01:09 なかったら：httpのままだと、メモは途中で見た人に読める
+01:32 仕組み：最初の401で入力を求め、あとは毎回ヘッダーで送る
+01:59 よくある誤解：Base64は暗号ではなく、パスワードファイルも見られる場所に置かない
+02:24 現場では：カールと設定ファイルで、今日のうちに確かめられる
+02:54 もう一歩：Basic認証のパスワードは、ほかで使い回さない
+03:17 まとめ
+
+■ 出典・参考
+RFC 7617: The 'Basic' HTTP Authentication Scheme：https://www.rfc-editor.org/rfc/rfc7617.html
+MDN: HTTP authentication：https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Authentication
+Apache HTTP Server: htpasswd：https://httpd.apache.org/docs/2.4/programs/htpasswd.html
+nginx: ngx_http_auth_basic_module：https://nginx.org/en/docs/http/ngx_http_auth_basic_module.html
+
+テック朝刊は毎朝6時、エンジニア向けのテックニュースをまとめています。
+※ 内容は公開情報をもとにした解説です。最新情報・正確な手順は必ず各公式情報をご確認ください。
+音声：VOICEVOX:四国めたん
+
+#テック朝刊 #Basic認証 #HTTP #セキュリティ #Web開発 #エンジニア
